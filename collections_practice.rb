@@ -47,3 +47,12 @@ end
 def find_a(strings)
   strings.select { |word| word.start_with? "a" }
 end
+
+def sum_array(numbers)
+  sum = 0
+  
+  numbers.each do |num|
+    sum += num
+  end
+  sum
+end
