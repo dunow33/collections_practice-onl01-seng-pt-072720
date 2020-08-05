@@ -37,6 +37,6 @@ def kesha_maker(strings)
   new_strings = []
   
   strings.each do |word|
-    word
+    word[2] = "$"
   end
 end
