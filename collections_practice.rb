@@ -56,3 +56,9 @@ def sum_array(numbers)
   end
   sum
 end
+
+def add_S(strings)
+  plurals = []
+  
+  
+end
