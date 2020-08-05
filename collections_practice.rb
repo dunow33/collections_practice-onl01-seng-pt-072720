@@ -60,5 +60,8 @@ end
 def add_S(strings)
   plurals = []
   
-  strings
+  strings.each do |word|
+    
+  end
 end
+
