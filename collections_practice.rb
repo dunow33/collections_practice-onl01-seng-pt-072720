@@ -61,7 +61,7 @@ def add_s(strings)
   plurals = []
   
   strings.each_with_index do |word, index|
-    if index == 2
+    if index == 1
       plurals << word
     else
       word << "s"
