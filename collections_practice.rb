@@ -38,5 +38,8 @@ def kesha_maker(strings)
   
   strings.each do |word|
     word[2] = "$"
+    new_strings << word
   end
+  
+  new_strings
 end
