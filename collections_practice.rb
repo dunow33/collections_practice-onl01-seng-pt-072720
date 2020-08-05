@@ -57,11 +57,16 @@ def sum_array(numbers)
   sum
 end
 
-def add_S(strings)
+def add_s(strings)
   plurals = []
   
-  strings.each do |word|
-    
+  strings.each_with_index do |word, index|
+    if index == 2
+      plurals << word
+    else
+      word << "s"
+      plurals << word
+    end
   end
 end
 
