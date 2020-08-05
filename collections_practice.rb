@@ -44,6 +44,6 @@ def kesha_maker(strings)
   new_strings
 end
 
-def find_a
+def find_a(strings)
   
 end
