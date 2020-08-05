@@ -60,5 +60,5 @@ end
 def add_S(strings)
   plurals = []
   
-  
+  strings
 end
