@@ -33,6 +33,10 @@ def reverse_array(integers_reverse)
   reverse_order
 end
 
-def kesha_maker
+def kesha_maker(strings)
+  new_strings = []
   
+  strings.each do |word|
+    word
+  end
 end
