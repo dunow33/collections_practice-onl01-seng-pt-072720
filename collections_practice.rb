@@ -68,5 +68,7 @@ def add_s(strings)
       plurals << word
     end
   end
+  
+  plurals
 end
 
